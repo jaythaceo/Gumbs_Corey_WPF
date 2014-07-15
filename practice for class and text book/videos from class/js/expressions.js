@@ -58,3 +58,20 @@ var orangeBins	= [234, 568, 883];
 
 var total 	= orangeBins[0] + orangeBins[1] + orangeBins[2];
 console.log(total);
+
+
+//concatenating or combining strings
+
+var firstName = "Corey";
+var lastName = "Gumbs";
+var space = " ";
+var fullName = firstName + space + lastName;
+console.log(fullName);
+
+//practice
+
+var a = "6";
+var b = "7";
+
+var result = a + b;
+console.log(result);

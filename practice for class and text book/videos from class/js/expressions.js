@@ -70,8 +70,21 @@ console.log(fullName);
 
 //practice
 
-var a = "6";
+var a = "6";//"quotations" turns variable into a string and will concatenate the strings rather than do mathematical operation. 
 var b = "7";
+var c = 6;
+var d = 7;
+
 
 var result = a + b;
+var sum = c +d; 
 console.log(result);
+console.log(sum);
+
+
+//casting - treating numbers like strings
+
+var stringVar = "6";
+var result = 7 + Number(stringVar);
+console.log(result);
+

@@ -50,3 +50,11 @@ var width = 6;
 
 var perimeter =  length * 2 + width *2;
 console.log(perimeter);
+
+
+//Using arrays in Expressions
+
+var orangeBins	= [234, 568, 883];
+
+var total 	= orangeBins[0] + orangeBins[1] + orangeBins[2];
+console.log(total);

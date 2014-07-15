@@ -1,5 +1,5 @@
 //JavaScript
-//Expressions, Arithmetic operators, Modulo
+// 	
 
 var a = 2; //defines value of variable
 var b = a+3; //assignment operator changes changes and defines new value of a
@@ -44,3 +44,9 @@ var quiz4 = 80;
 var average = (quiz1 + quiz2 + quiz3 + quiz4)/4; 
 console.log(average);
 
+//learning not to overuse parenthesis
+var length = 7;
+var width = 6;
+
+var perimeter =  length * 2 + width *2;
+console.log(perimeter);

@@ -85,13 +85,13 @@ console.log(sum);
 //casting - treating numbers like strings
 
 var stringVar = "6";
-var result = 7 + Number(stringVar);//to cast put string in () and write Number in front of it to give it numerical value
+var result = 7 + Number(stringVar);//to cast put string in () and write type (String, Number, etc.) in front of it to give it numerical value
 console.log(result);
 
 var areaCode = 718;
 var firstPart = 341;
 var secPart = 2281;
-
-var phoneNo = areaCode + firstPart + secPart;
+//(718) 341-2281
+var phoneNo = "(" + String(areaCode) + ")" + String(firstPart)+ "-" + String(secPart);
 console.log(phoneNo);
 

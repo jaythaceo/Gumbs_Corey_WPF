@@ -42,8 +42,13 @@ console.log("Sparky got" + " " +remainder + " " + "slices of pizza.");
 
 //Beginning of Problem #4 - Average Shopping Bill
 
-var shopBudget = [250.33, 320.72, 450.96, 165.34, 175.14];
+//created an array to hold 5 weekly spending expindetures.
+var shopBudget = [250, 320, 450, 165, 175, 231];
 
-var total = shopBudget[0] + shopBudget[1] + shopBudget[2] + shopBudget[3] + shopBudget [4];
+//totaled up all 5 items in  array, then calculted average of 5 items in array
+var total = shopBudget[0] + shopBudget[1] + shopBudget[2] + shopBudget[3] + shopBudget[4] +shopBudget[5];
+var average = total/5;
 
-console.log(total);
+//print out expression for total and average of array
+console.log("You have spent a total of $" + total + " " + "on groceries over 5 weeks. That is an average of $"+ average + " " + "per week.");
+

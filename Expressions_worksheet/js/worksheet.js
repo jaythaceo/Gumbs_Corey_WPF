@@ -66,6 +66,11 @@ var taxPercent = 20;
 var taxFree = retail - Number(retail * .33);
 var taxFee = (taxFree * (Number(taxPercent / 100)) + taxFree);
 
-console.log(taxFee);
+//Print results to console
+console.log("Your" + " " + description + " " + "was originally $" + retail + ", but after a" + " " + percent + "% discount, it is now $" + taxFree + " " + "without tax, and $" + taxFee + " " + "with tax.");
+
+
+
+
 
 

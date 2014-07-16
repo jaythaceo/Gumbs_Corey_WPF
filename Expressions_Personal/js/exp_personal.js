@@ -3,18 +3,15 @@
 
 
 
-//Expressions - Personal: How Many hours after studying and schoolwork do I have to play.
-//Dictating and defining variables for "School and Play" calc.
-//weekTime is how many hours in a week minus 8 hrs per day for sleep (7 day week)
-var weekTime = 168 - 56;
-//this variable user inputs how much time they did school work
-var schoolTime = 40;
-//this variable is how many hours of study time they completed
-var studyTime = 20;
+//Personal Expressions Assignment
+//This is a calculator to help me plan how much time I have during the week for recreation and personal time
 
-//Result variable that determines the remainder of time left after study and school time.
-var playTime =  ((schoolTime + studyTime) - Number(weekTime)) % 100 ;
 
-console.log(playTime);
+//declaring and defining variables
+
+alert("RecCalc will determine your free time for the week! \n \n Please answer all questions. Click next to begin.");
+
+var weekTime = 168;
+var userSchool = prompt("How many hours do you spend on school work?");
 
 	prompt("Fill in the blank");

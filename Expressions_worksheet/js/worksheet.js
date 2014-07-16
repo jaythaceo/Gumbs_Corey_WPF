@@ -19,11 +19,11 @@ console.log("Sparky is" + " " + sparkyAge + " " + "human years old, which is" + 
 
 //decalring and defining variables for how many slices per pizza, how many people at party, how many pizzas ordered.
 var pizzaSlice = 10;
-var partyPeople = 50;
+var partyPeople = 40;
 var pizzaOrdered = 26;
 
 //multiply pizza slices and pizza ordered, divide by # of people at party & assign result var
-var slicesPeople = Number(pizzaSlice * pizzaOrdered)/partyPeople;
+var slicesPeople = (pizzaSlice * pizzaOrdered)/partyPeople;
 
 //print out of expresssion for Problem #2
 console.log("Each person ate" + " " + slicesPeople + " " + "slices of pizza at the party.");
@@ -35,9 +35,10 @@ console.log("Each person ate" + " " + slicesPeople + " " + "slices of pizza at t
 
 //used variables from Problem #2 
 var pizzaSlice = 10;
-var partyPeople = 50;
+var partyPeople = 40;
 var pizzaOrdered = 26;
+var slicesPeople = (pizzaSlice * pizzaOrdered)/partyPeople;
 
 //calculate the number of pizzas, slices, people, and remainder to sparky
-var resultSparky = Number(pizzaSlice * pizzaOrdered) / partyPeople;
-console.log("Sparky got" + " " +resultSparky + " " + "slice of pizza.");
+var resultSparky = (slicesPeople) * 10;
+console.log("Sparky got" + " " +resultSparky + " " + "slices of pizza.");

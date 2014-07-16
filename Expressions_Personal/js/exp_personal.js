@@ -16,3 +16,5 @@ var studyTime = 20;
 var playTime =  ((schoolTime + studyTime) - Number(weekTime)) % 100 ;
 
 console.log(playTime);
+
+	prompt("Fill in the blank");

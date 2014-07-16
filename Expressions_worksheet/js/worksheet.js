@@ -19,7 +19,7 @@ console.log("Sparky is" + " " + sparkyAge + " " + "human years old, which is" + 
 
 //decalring and defining variables for how many slices per pizza, how many people at party, how many pizzas ordered.
 var pizzaSlice = 10;
-var partyPeople = 40;
+var partyPeople =  50;
 var pizzaOrdered = 26;
 
 //multiply pizza slices and pizza ordered, divide by # of people at party & assign result var
@@ -32,13 +32,8 @@ console.log("Each person ate" + " " + slicesPeople + " " + "slices of pizza at t
 
 //Begining of Problem #3 - Slice of Pie part 2
 
+//multiply how many slices per person x 10 to make a whole number and then modulo number to get remainder for sparky.
+var remainder = (slicesPeople * 10) % 10;
 
-//used variables from Problem #2 
-var pizzaSlice = 10;
-var partyPeople = 40;
-var pizzaOrdered = 26;
-var slicesPeople = (pizzaSlice * pizzaOrdered)/partyPeople;
-
-//calculate the number of pizzas, slices, people, and remainder to sparky
-var resultSparky = (slicesPeople) * 10;
-console.log("Sparky got" + " " +resultSparky + " " + "slices of pizza.");
+//Print remainder of what sparky's portion is.
+console.log("Sparky got" + " " +remainder + " " + "slices of pizza.");

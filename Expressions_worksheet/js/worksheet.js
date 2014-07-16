@@ -52,3 +52,20 @@ var average = total/5;
 //print out expression for total and average of array
 console.log("You have spent a total of $" + total + " " + "on groceries over 5 weeks. That is an average of $"+ average + " " + "per week.");
 
+
+//Beginning of Problem #5 - 
+
+//declaration and definition of variables
+var retail = 150;
+var percent = 33;
+var description = "watch";
+var taxPercent = 20;
+
+//tax-free calculation: for tax free equation multiply retail price by discount price. For tax equation take tax free price and multiply it by 
+//percentage converted into a decimal, then add to tax free price also known as discounted price.
+var taxFree = retail - Number(retail * .33);
+var taxFee = (taxFree * (Number(taxPercent / 100)) + taxFree);
+
+console.log(taxFee);
+
+

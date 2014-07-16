@@ -95,3 +95,12 @@ var secPart = 2281;
 var phoneNo = "(" + String(areaCode) + ")" + String(firstPart)+ "-" + String(secPart);
 console.log(phoneNo);
 
+
+//assignment operators  +=, *=, -=, /=, increment operator ++
+
+var a = 3; 
+var b = 5;
+a += 4; //equals a = a + 4
+b ++;//
+b --;// is the same as b = b -1 or b -= 1
+console.log(a + b);

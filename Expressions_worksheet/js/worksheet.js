@@ -30,10 +30,20 @@ console.log("Each person ate" + " " + slicesPeople + " " + "slices of pizza at t
 
 
 
-//Begining of Problem #3 - Slice of Pie part 2
+//Beginning of Problem #3 - Slice of Pie part 2
 
 //multiply how many slices per person x 10 to make a whole number and then modulo number to get remainder for sparky.
 var remainder = (slicesPeople * 10) % 10;
 
 //Print remainder of what sparky's portion is.
 console.log("Sparky got" + " " +remainder + " " + "slices of pizza.");
+
+
+
+//Beginning of Problem #4 - Average Shopping Bill
+
+var shopBudget = [250.33, 320.72, 450.96, 165.34, 175.14];
+
+var total = shopBudget[0] + shopBudget[1] + shopBudget[2] + shopBudget[3] + shopBudget [4];
+
+console.log(total);

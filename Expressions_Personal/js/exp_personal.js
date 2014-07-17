@@ -17,12 +17,14 @@ var userStudy = prompt("How many hours a week do you study?");
 var userSleep = prompt("How many hours do you sleep in a day?")
 var userEat = prompt("How many times do you eat per day?")
 
-var eat = "You spend " + (userEat * 30) + " hours a day eating.";
+var eat = "You spend " + (userEat * 30) + " minutes (based on 30 minute increments) a day eating.";
 var sleep = " You sleep " + (userSleep * 7) + " hours a week.";
-var avgSleep = (userSleep / 7) * 10;
+var avgStudy = Number(userStudy)/7;
 
 alert(eat);
 alert(sleep);
+alert("You do " + userSchool + " hours worth of school work.");
+alert("You study for" + userStudy + " hours a week for an average of" + avgStudy + " per day.");
  
 console.log(userSchool + " " + userStudy + " " + userSleep + " " + userEat);
-console.log(eat + " " + sleep + " " + avgSleep);
+console.log(eat + " " + sleep);

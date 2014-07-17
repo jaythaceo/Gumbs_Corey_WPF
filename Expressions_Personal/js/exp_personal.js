@@ -16,12 +16,14 @@ var userSchool = prompt("How many hours a week do you spend on school work?");
 var userStudy = prompt("How many hours a week do you study?");
 var userSleep = prompt("How many hours do you sleep in a day?")
 var userEat = prompt("How many times do you eat per day?")
-var total = userSchool + userStudy + sleep + eat;
-var weekTime = 168 - total;//hours in a week minus hours spent = free time
 
 var eat =(userEat * 30 / 60)* 7;//hours per week for eat: convert minutes into hours per week
 var sleep = (userSleep * 7)//hours per week for sleep
 var avgStudy = Number(userStudy)/7;//average per day of study time
+
+var total = userSchool + userStudy + sleep + eat;
+var weekTime = 168 - total;//hours in a week minus hours spent = free time
+
 
 //result alerts
 alert("You do " + userSchool + " hours worth of school work.");

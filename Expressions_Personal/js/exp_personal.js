@@ -14,12 +14,15 @@ alert("RecCalc will determine your free time for the week! \n \n Please answer a
 var weekTime = 168;
 var userSchool = prompt("How many hours a week do you spend on school work?");
 var userStudy = prompt("How many hours a week do you study?");
-var userSleep = prompt("How many hours do you sleep a day?")
+var userSleep = prompt("How many hours do you sleep in a day?")
 var userEat = prompt("How many times do you eat per day?")
 
-var eat = (userEat * 30) / 60;
-var sleep = userSleep * 7;
+var eat = "You spend " + (userEat * 30) + " hours a day eating.";
+var sleep = " You sleep " + (userSleep * 7) + " hours a week.";
 var avgSleep = (userSleep / 7) * 10;
+
+alert(eat);
+alert(sleep);
  
 console.log(userSchool + " " + userStudy + " " + userSleep + " " + userEat);
 console.log(eat + " " + sleep + " " + avgSleep);

@@ -12,10 +12,10 @@
 alert("RecCalc will determine your free time for the week! \n \n Please answer all questions. Click next to begin.");
 //input variables
 
-var userSchool = prompt("How many hours a week do you spend on school work?");
-var userStudy = prompt("How many hours a week do you study?");
-var userSleep = prompt("How many hours do you sleep in a day?")
-var userEat = prompt("How many times do you eat per day?")
+var userSchool = number(prompt("How many hours a week do you spend on school work?"));
+var userStudy = number(prompt("How many hours a week do you study?"));
+var userSleep = number(prompt("How many hours do you sleep in a day?"));
+var userEat = number(prompt("How many times do you eat per day?"));
 
 var eat =(userEat * 30 / 60)* 7;//hours per week for eat: convert minutes into hours per week
 var sleep = (userSleep * 7)//hours per week for sleep
